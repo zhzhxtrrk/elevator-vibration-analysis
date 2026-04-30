@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Environment & secrets
+.env
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (keep small, S3 is source of truth)
+data/*.zip
+data/*.csv
+
+# Notebook outputs
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Serena
+.serena/
+
+# Hermes plans (local)
+.hermes/
+
+# Python version marker
+.python-version
+
+# Egg info
+*.egg-info/
+
+# Typst
+docs/*.pdf
